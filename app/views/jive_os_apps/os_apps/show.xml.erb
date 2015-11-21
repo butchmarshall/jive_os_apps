@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module specificationVersion="1">
+	<ModulePrefs<% (@config["module_prefs"] || {}).each_pair { |k,v| %> <%= k %>="<%= v %>"<% } %>>
+		<% (@config["features"] || []).each { |feature| %>
+		<Require feature="<%= (feature.is_a?(String)? feature : feature.keys.first) %>" <%= (feature.is_a?(Hash)? feature[feature.keys.first].collect { |i| "#{i[0]}=\"#{i[1]}\"" }.join(' ')+" " : "").html_safe %>/>
+		<% } -%>
+		<% (@config["locales"] || {}).each_pair { |locale,data| %>
+		<Locale lang="<%= locale %>" messages="<%= app_locale_url(params[:app_name], locale) %>"></Locale>
+		<% } -%>
+		<Require feature="actions">
+			<Param name="action-contributions">
+				<% (@config["actions"] || []).each { |content| %>
+					<action<% content.each_pair { |k,v| %> <%= k %>="<%= v %>"<% } %> />
+				<% } %>
+			</Param>
+		</Require>
+	</ModulePrefs>
+	<% (@config["content"] || []).each { |content| %>
+		<Content<% content.each_pair { |k,v| %> <%= k %>="<%= v %>"<% } %> />
+	<% } %>
+</Module>

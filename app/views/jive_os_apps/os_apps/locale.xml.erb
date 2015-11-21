@@ -1,0 +1,5 @@
+<messagebundle>
+	<% (@config["locales"][params[:locale]] || {}).each_pair { |k,v| %>
+	<msg name="<%= k %>"><%= v %></msg>
+	<% } %>
+</messagebundle>
