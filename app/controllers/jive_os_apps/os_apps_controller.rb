@@ -1,13 +1,15 @@
 require_dependency "jive_os_apps/application_controller"
 
+module Concerns
+	module Controllers
+		module OsApps
+			extend JiveOsApps::Concerns::Controllers::OsApps
+		end
+	end
+end
+
 module JiveOsApps
 	class OsAppsController < ApplicationController
-		def show
-			@config = YAML.load(ERB.new(File.read("#{Rails.root}/config/jive_osapp_#{params[:app_name]}_config.yml")).result)[Rails.env]
-		end
-
-		def locale
-			@config = YAML.load(ERB.new(File.read("#{Rails.root}/config/jive_osapp_#{params[:app_name]}_config.yml")).result)[Rails.env]
-		end
+		include Concerns::Controllers::OsApps
 	end
 end

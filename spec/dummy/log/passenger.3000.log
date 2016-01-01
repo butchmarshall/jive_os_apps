@@ -1,0 +1,1230 @@
+2015/11/18 11:46:17 [emerg] 25513#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2015/11/18 11:46:17 [emerg] 25513#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2015/11/18 11:46:17 [emerg] 25513#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2015/11/18 11:46:17 [emerg] 25513#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2015/11/18 11:46:17 [emerg] 25513#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2015/11/18 11:46:17 [emerg] 25513#0: still could not bind()
+[ 2015-11-18 11:46:25.5333 25547/7f0bc6f67780 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-11-18 11:46:25.5399 25550/7f43a5542780 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-11-18 11:46:25.5400 25550/7f43a5542780 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-11-18 11:46:25.5415 25550/7f43a5542780 age/Cor/Main.cpp:707 ]: Passenger core online, PID 25550
+[ 2015-11-18 11:46:25.5489 25559/7f687f69f780 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-11-18 11:46:25.5492 25559/7f687f69f780 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 25559
+App 25592 stdout: 
+App 25610 stdout: 
+
+[ 2015-11-18 11:46:59.8137 25550/7f439e5a7700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 11:46:59.8137 25550/7f43a5542780 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 11:46:59.8138 25550/7f43a5542780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 25610, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 11:46:59.8139 25550/7f439dd25700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-11-18 11:46:59.8139 25550/7f439dd25700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-11-18 11:46:59.8146 25550/7f439cc21700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-11-18 11:46:59.8146 25550/7f439cc21700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-11-18 11:46:59.8153 25550/7f439d4a3700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-11-18 11:46:59.8153 25550/7f439d4a3700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-11-18 11:46:59.8154 25550/7f436ffff700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-11-18 11:46:59.8155 25550/7f436ffff700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-11-18 11:46:59.8156 25550/7f439e5a7700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-11-18 11:46:59.8156 25550/7f439e5a7700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-11-18 11:46:59.8157 25550/7f43a5542780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 25610, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+
+[ 2015-11-18 11:46:59.8186 25559/7f6873fff700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 11:46:59.8186 25559/7f687f69f780 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 11:46:59.8186 25559/7f6873fff700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-11-18 11:46:59.8186 25559/7f6873fff700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-11-18 11:46:59.8189 25559/7f687f69f780 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-11-18 11:46:59.9311 25550/7f43a5542780 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+[ 2015-11-18 11:47:16.1307 25737/7f5d566c1780 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-11-18 11:47:16.1382 25740/7fc178468780 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-11-18 11:47:16.1383 25740/7fc178468780 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-11-18 11:47:16.1399 25740/7fc178468780 age/Cor/Main.cpp:707 ]: Passenger core online, PID 25740
+[ 2015-11-18 11:47:16.1492 25747/7f6e50efd780 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-11-18 11:47:16.1496 25747/7f6e50efd780 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 25747
+App 25783 stdout: 
+App 25799 stdout: 
+
+[ 2015-11-18 11:52:24.7563 25747/7f6e49f27700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 11:52:24.7563 25747/7f6e50efd780 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+
+[ 2015-11-18 11:52:24.7564 25747/7f6e49f27700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-11-18 11:52:24.7564 25740/7fc1714cd700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 11:52:24.7564 25747/7f6e49f27700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-11-18 11:52:24.7564 25740/7fc178468780 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 11:52:24.7565 25740/7fc178468780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 25799, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 11:52:24.7566 25740/7fc16affd700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-11-18 11:52:24.7566 25740/7fc16affd700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-11-18 11:52:24.7567 25740/7fc1714cd700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-11-18 11:52:24.7568 25740/7fc1714cd700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-11-18 11:52:24.7569 25740/7fc170c4b700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-11-18 11:52:24.7569 25740/7fc170c4b700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-11-18 11:52:24.7570 25747/7f6e50efd780 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-11-18 11:52:24.7574 25740/7fc16bfff700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-11-18 11:52:24.7574 25740/7fc16bfff700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-11-18 11:52:24.7576 25740/7fc16b7fe700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-11-18 11:52:24.7576 25740/7fc16b7fe700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-11-18 11:52:24.7577 25740/7fc178468780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 25799, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 11:52:24.8722 25740/7fc178468780 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+[ 2015-11-18 11:52:25.6459 26579/7f266ed62780 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-11-18 11:52:25.6525 26582/7ff3fe2c9780 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-11-18 11:52:25.6526 26582/7ff3fe2c9780 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-11-18 11:52:25.6540 26582/7ff3fe2c9780 age/Cor/Main.cpp:707 ]: Passenger core online, PID 26582
+[ 2015-11-18 11:52:25.6611 26593/7fb7f439c780 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-11-18 11:52:25.6614 26593/7fb7f439c780 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 26593
+App 26629 stdout: 
+App 26645 stdout: 
+
+[ 2015-11-18 11:52:50.4852 26582/7ff3f732e700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 11:52:50.4853 26582/7ff3fe2c9780 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 11:52:50.4853 26582/7ff3fe2c9780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 26645, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 11:52:50.4855 26582/7ff3f622a700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-11-18 11:52:50.4856 26582/7ff3f622a700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-11-18 11:52:50.4856 26582/7ff3f732e700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-11-18 11:52:50.4856 26582/7ff3f732e700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-11-18 11:52:50.4857 26582/7ff3f5126700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-11-18 11:52:50.4857 26582/7ff3f5126700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-11-18 11:52:50.4875 26582/7ff3f6aac700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-11-18 11:52:50.4876 26582/7ff3f6aac700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+
+[ 2015-11-18 11:52:50.4877 26593/7fb7ed3c6700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 11:52:50.4877 26593/7fb7f439c780 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 11:52:50.4878 26593/7fb7ed3c6700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-11-18 11:52:50.4878 26593/7fb7ed3c6700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-11-18 11:52:50.4881 26582/7ff3f59a8700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-11-18 11:52:50.4881 26582/7ff3f59a8700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-11-18 11:52:50.4882 26582/7ff3fe2c9780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 26645, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 11:52:50.4884 26593/7fb7f439c780 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-11-18 11:52:50.6021 26582/7ff3fe2c9780 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+[ 2015-11-18 11:52:51.2379 26709/7f247ad39780 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-11-18 11:52:51.2453 26712/7f54bdcea780 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-11-18 11:52:51.2454 26712/7f54bdcea780 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-11-18 11:52:51.2472 26712/7f54bdcea780 age/Cor/Main.cpp:707 ]: Passenger core online, PID 26712
+[ 2015-11-18 11:52:51.2544 26722/7f88e4ae6780 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-11-18 11:52:51.2547 26722/7f88e4ae6780 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 26722
+App 26755 stdout: 
+App 26773 stdout: 
+
+[ 2015-11-18 11:59:44.6859 26712/7f54b6d4f700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 11:59:44.6860 26712/7f54bdcea780 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+
+[ 2015-11-18 11:59:44.6860 26712/7f54bdcea780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 26773, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 11:59:44.6860 26722/7f88ddb10700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 11:59:44.6861 26722/7f88e4ae6780 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 11:59:44.6863 26712/7f54b5c4b700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-11-18 11:59:44.6863 26712/7f54b5c4b700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-11-18 11:59:44.6864 26712/7f54b4b47700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-11-18 11:59:44.6864 26712/7f54b4b47700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-11-18 11:59:44.6864 26722/7f88ddb10700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-11-18 11:59:44.6864 26722/7f88ddb10700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-11-18 11:59:44.6865 26712/7f54b53c9700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-11-18 11:59:44.6865 26712/7f54b53c9700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-11-18 11:59:44.6866 26712/7f54b6d4f700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-11-18 11:59:44.6866 26712/7f54b6d4f700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-11-18 11:59:44.6868 26722/7f88e4ae6780 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-11-18 11:59:44.6872 26712/7f54b64cd700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-11-18 11:59:44.6873 26712/7f54b64cd700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-11-18 11:59:44.6874 26712/7f54bdcea780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 26773, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 11:59:44.7993 26712/7f54bdcea780 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+[ 2015-11-18 11:59:45.8340 27721/7f7b60aee780 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-11-18 11:59:45.8405 27724/7fc1f38b0780 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-11-18 11:59:45.8406 27724/7fc1f38b0780 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-11-18 11:59:45.8421 27724/7fc1f38b0780 age/Cor/Main.cpp:707 ]: Passenger core online, PID 27724
+[ 2015-11-18 11:59:45.8492 27732/7f32f5e69780 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-11-18 11:59:45.8495 27732/7f32f5e69780 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 27732
+App 27767 stdout: 
+App 27783 stdout: 
+App 2948 stdout: 
+App 3031 stdout: 
+[ 2015-11-18 13:12:13.1946 27724/7fc1f386d700 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 3031, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+
+[ 2015-11-18 13:31:07.2195 27732/7f32eee93700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2015-11-18 13:31:07.2195 27732/7f32f5e69780 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 13:31:07.2196 27724/7fc1ec915700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 13:31:07.2196 27732/7f32eee93700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-11-18 13:31:07.2196 27732/7f32eee93700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-11-18 13:31:07.2196 27724/7fc1f38b0780 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 13:31:07.2196 27724/7fc1f38b0780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 27783, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 13:31:07.2198 27732/7f32f5e69780 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-11-18 13:31:07.2198 27724/7fc1d77fe700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-11-18 13:31:07.2199 27724/7fc1d77fe700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-11-18 13:31:07.2201 27724/7fc1d7fff700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-11-18 13:31:07.2201 27724/7fc1d7fff700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-11-18 13:31:07.2203 27724/7fc1ec915700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-11-18 13:31:07.2204 27724/7fc1ec915700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-11-18 13:31:07.2201 27724/7fc1d6f7c700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-11-18 13:31:07.2204 27724/7fc1d6f7c700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-11-18 13:31:07.2204 27724/7fc1d66fa700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-11-18 13:31:07.2205 27724/7fc1d66fa700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-11-18 13:31:07.2206 27724/7fc1f38b0780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 27783, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 13:31:07.3327 27724/7fc1f38b0780 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+[ 2015-11-18 13:31:07.9436 6876/7f7e7f325780 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-11-18 13:31:07.9499 6879/7f71a63ef780 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-11-18 13:31:07.9500 6879/7f71a63ef780 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-11-18 13:31:07.9515 6879/7f71a63ef780 age/Cor/Main.cpp:707 ]: Passenger core online, PID 6879
+[ 2015-11-18 13:31:07.9585 6890/7fcd5d331780 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-11-18 13:31:07.9588 6890/7fcd5d331780 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 6890
+App 6926 stdout: 
+App 6926 stdout: 
+[ 2015-11-18 13:31:11.0747 6879/7f719c1c9700 App/Implementation.cpp:303 ]: Could not spawn process for application /home/butch/workspace/jive_os_apps/test/dummy: An error occured while starting up the preloader.
+  Error ID: 54588db9
+  Error details saved to: /tmp/passenger-error-NQjWCq.html
+  Message from application: undefined method `setup' for JiveOsApps:Module (NoMethodError)
+  /home/butch/workspace/jive_os_apps/test/dummy/config/initializers/jive_os_apps.rb:1:in `<top (required)>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:268:in `load'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:268:in `block in load'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:268:in `load'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:652:in `block in load_config_initializer'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/notifications.rb:166:in `instrument'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:651:in `load_config_initializer'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:616:in `block (2 levels) in <class:Engine>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:615:in `each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:615:in `block in <class:Engine>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `run'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:226:in `block in tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:418:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:427:in `each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:417:in `block in each_strongly_connected_component_from'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:44:in `each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:411:in `call'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:411:in `each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `call'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:205:in `tsort_each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/application.rb:352:in `initialize!'
+  /home/butch/workspace/jive_os_apps/test/dummy/config/environment.rb:5:in `<top (required)>'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  config.ru:3:in `block in <main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `preload_app'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:153:in `<module:App>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+
+[ 2015-11-18 13:31:11.0789 6879/7f719f454700 age/Cor/Req/CheckoutSession.cpp:252 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 54588db9. Please see earlier logs for details about the error.
+App 6944 stdout: 
+App 6944 stdout: 
+[ 2015-11-18 13:31:13.6387 6879/7f719c1c9700 App/Implementation.cpp:303 ]: Could not spawn process for application /home/butch/workspace/jive_os_apps/test/dummy: An error occured while starting up the preloader.
+  Error ID: 77803951
+  Error details saved to: /tmp/passenger-error-7lNSDX.html
+  Message from application: undefined method `setup' for JiveOsApps:Module (NoMethodError)
+  /home/butch/workspace/jive_os_apps/test/dummy/config/initializers/jive_os_apps.rb:1:in `<top (required)>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:268:in `load'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:268:in `block in load'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:268:in `load'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:652:in `block in load_config_initializer'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/notifications.rb:166:in `instrument'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:651:in `load_config_initializer'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:616:in `block (2 levels) in <class:Engine>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:615:in `each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:615:in `block in <class:Engine>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `run'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:226:in `block in tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:418:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:427:in `each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:417:in `block in each_strongly_connected_component_from'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:44:in `each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:411:in `call'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:411:in `each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `call'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:205:in `tsort_each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/application.rb:352:in `initialize!'
+  /home/butch/workspace/jive_os_apps/test/dummy/config/environment.rb:5:in `<top (required)>'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  config.ru:3:in `block in <main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `preload_app'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:153:in `<module:App>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+
+[ 2015-11-18 13:31:13.6429 6879/7f719ebd2700 age/Cor/Req/CheckoutSession.cpp:252 ]: [Client 2-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 77803951. Please see earlier logs for details about the error.
+App 7135 stdout: 
+App 7135 stdout: 
+[ 2015-11-18 13:33:25.5414 6879/7f719c1c9700 App/Implementation.cpp:303 ]: Could not spawn process for application /home/butch/workspace/jive_os_apps/test/dummy: An error occured while starting up the preloader.
+  Error ID: 913bea61
+  Error details saved to: /tmp/passenger-error-X5rm4R.html
+  Message from application: undefined method `setup' for JiveOsApps:Module (NoMethodError)
+  /home/butch/workspace/jive_os_apps/test/dummy/config/initializers/jive_os_apps.rb:1:in `<top (required)>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:268:in `load'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:268:in `block in load'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:268:in `load'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:652:in `block in load_config_initializer'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/notifications.rb:166:in `instrument'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:651:in `load_config_initializer'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:616:in `block (2 levels) in <class:Engine>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:615:in `each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:615:in `block in <class:Engine>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `run'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:226:in `block in tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:418:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:427:in `each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:417:in `block in each_strongly_connected_component_from'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:44:in `each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:411:in `call'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:411:in `each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `call'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:205:in `tsort_each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/application.rb:352:in `initialize!'
+  /home/butch/workspace/jive_os_apps/test/dummy/config/environment.rb:5:in `<top (required)>'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  config.ru:3:in `block in <main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `preload_app'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:153:in `<module:App>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+
+[ 2015-11-18 13:33:25.5462 6879/7f719e350700 age/Cor/Req/CheckoutSession.cpp:252 ]: [Client 3-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 913bea61. Please see earlier logs for details about the error.
+
+
+[ 2015-11-18 13:33:35.9511 6879/7f719f454700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 13:33:35.9511 6890/7fcd5635b700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 13:33:35.9512 6879/7f71a63ef780 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 13:33:35.9512 6890/7fcd5d331780 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 13:33:35.9513 6890/7fcd5635b700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-11-18 13:33:35.9513 6890/7fcd5635b700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-11-18 13:33:35.9516 6879/7f719e350700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-11-18 13:33:35.9516 6879/7f719e350700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-11-18 13:33:35.9516 6879/7f719f454700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-11-18 13:33:35.9516 6879/7f719f454700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-11-18 13:33:35.9517 6879/7f719d24c700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-11-18 13:33:35.9517 6879/7f719d24c700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-11-18 13:33:35.9518 6879/7f719dace700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-11-18 13:33:35.9518 6879/7f719dace700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-11-18 13:33:35.9520 6879/7f719ebd2700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-11-18 13:33:35.9520 6879/7f719ebd2700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-11-18 13:33:35.9520 6890/7fcd5d331780 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-11-18 13:33:35.9534 6879/7f71a63ef780 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+[ 2015-11-18 13:33:36.7252 7184/7fda3226d780 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-11-18 13:33:36.7325 7187/7f3654d17780 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-11-18 13:33:36.7326 7187/7f3654d17780 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-11-18 13:33:36.7345 7187/7f3654d17780 age/Cor/Main.cpp:707 ]: Passenger core online, PID 7187
+[ 2015-11-18 13:33:36.7417 7196/7eff96a22780 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-11-18 13:33:36.7420 7196/7eff96a22780 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 7196
+App 7230 stdout: 
+App 7230 stdout: 
+[ 2015-11-18 13:33:39.8486 7187/7f364c2f4700 App/Implementation.cpp:303 ]: Could not spawn process for application /home/butch/workspace/jive_os_apps/test/dummy: An error occured while starting up the preloader.
+  Error ID: 43fc68ce
+  Error details saved to: /tmp/passenger-error-V1O7KE.html
+  Message from application: undefined method `setup' for JiveOsApps:Module (NoMethodError)
+  /home/butch/workspace/jive_os_apps/test/dummy/config/initializers/jive_os_apps.rb:1:in `<top (required)>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:268:in `load'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:268:in `block in load'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:268:in `load'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:652:in `block in load_config_initializer'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/notifications.rb:166:in `instrument'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:651:in `load_config_initializer'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:616:in `block (2 levels) in <class:Engine>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:615:in `each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:615:in `block in <class:Engine>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `run'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:226:in `block in tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:418:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:427:in `each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:417:in `block in each_strongly_connected_component_from'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:44:in `each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:411:in `call'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:411:in `each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `call'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:205:in `tsort_each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/application.rb:352:in `initialize!'
+  /home/butch/workspace/jive_os_apps/test/dummy/config/environment.rb:5:in `<top (required)>'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  config.ru:3:in `block in <main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `preload_app'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:153:in `<module:App>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+
+[ 2015-11-18 13:33:39.8575 7187/7f364dd7c700 age/Cor/Req/CheckoutSession.cpp:252 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 43fc68ce. Please see earlier logs for details about the error.
+App 7252 stdout: 
+App 7252 stdout: 
+[ 2015-11-18 13:33:44.1399 7187/7f364c2f4700 App/Implementation.cpp:303 ]: Could not spawn process for application /home/butch/workspace/jive_os_apps/test/dummy: An error occured while starting up the preloader.
+  Error ID: 78ab7df4
+  Error details saved to: /tmp/passenger-error-WDYJAJ.html
+  Message from application: undefined method `setup' for JiveOsApps:Module (NoMethodError)
+  /home/butch/workspace/jive_os_apps/test/dummy/config/initializers/jive_os_apps.rb:1:in `<top (required)>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:268:in `load'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:268:in `block in load'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:268:in `load'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:652:in `block in load_config_initializer'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/notifications.rb:166:in `instrument'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:651:in `load_config_initializer'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:616:in `block (2 levels) in <class:Engine>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:615:in `each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:615:in `block in <class:Engine>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `run'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:226:in `block in tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:418:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:427:in `each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:417:in `block in each_strongly_connected_component_from'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:44:in `each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:411:in `call'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:411:in `each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `call'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:205:in `tsort_each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/application.rb:352:in `initialize!'
+  /home/butch/workspace/jive_os_apps/test/dummy/config/environment.rb:5:in `<top (required)>'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  config.ru:3:in `block in <main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `preload_app'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:153:in `<module:App>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+
+[ 2015-11-18 13:33:44.1462 7187/7f364d4fa700 age/Cor/Req/CheckoutSession.cpp:252 ]: [Client 2-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 78ab7df4. Please see earlier logs for details about the error.
+
+
+[ 2015-11-18 13:34:13.1226 7187/7f364dd7c700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 13:34:13.1226 7196/7eff8fa4c700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 13:34:13.1226 7187/7f3654d17780 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 13:34:13.1226 7196/7eff96a22780 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 13:34:13.1227 7196/7eff8fa4c700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-11-18 13:34:13.1227 7196/7eff8fa4c700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-11-18 13:34:13.1228 7187/7f364dd7c700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-11-18 13:34:13.1228 7187/7f364dd7c700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-11-18 13:34:13.1229 7187/7f36277fe700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-11-18 13:34:13.1229 7187/7f36277fe700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-11-18 13:34:13.1229 7196/7eff96a22780 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-11-18 13:34:13.1235 7187/7f364d4fa700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-11-18 13:34:13.1235 7187/7f364d4fa700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-11-18 13:34:13.1237 7187/7f3627fff700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-11-18 13:34:13.1237 7187/7f3627fff700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-11-18 13:34:13.1238 7187/7f364cc78700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-11-18 13:34:13.1238 7187/7f364cc78700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-11-18 13:34:13.1358 7187/7f3654d17780 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+[ 2015-11-18 13:34:13.8920 7325/7f8934eea780 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-11-18 13:34:13.8987 7328/7f2af596b780 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-11-18 13:34:13.8988 7328/7f2af596b780 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-11-18 13:34:13.9002 7328/7f2af596b780 age/Cor/Main.cpp:707 ]: Passenger core online, PID 7328
+[ 2015-11-18 13:34:13.9075 7337/7fe40b12e780 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-11-18 13:34:13.9078 7337/7fe40b12e780 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 7337
+App 7378 stdout: 
+App 7378 stdout: 
+[ 2015-11-18 13:34:17.0164 7328/7f2aec747700 App/Implementation.cpp:303 ]: Could not spawn process for application /home/butch/workspace/jive_os_apps/test/dummy: An error occured while starting up the preloader.
+  Error ID: 2d2533dc
+  Error details saved to: /tmp/passenger-error-nrgv8a.html
+  Message from application: undefined method `hahahah=' for JiveOsApps:Module (NoMethodError)
+  /home/butch/workspace/jive_os_apps/test/dummy/config/initializers/jive_os_apps.rb:2:in `block in <top (required)>'
+  /home/butch/workspace/jive_os_apps/lib/jive_os_apps/engine.rb:7:in `setup'
+  /home/butch/workspace/jive_os_apps/test/dummy/config/initializers/jive_os_apps.rb:1:in `<top (required)>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:268:in `load'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:268:in `block in load'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:268:in `load'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:652:in `block in load_config_initializer'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/notifications.rb:166:in `instrument'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:651:in `load_config_initializer'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:616:in `block (2 levels) in <class:Engine>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:615:in `each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:615:in `block in <class:Engine>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `run'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:226:in `block in tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:418:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:427:in `each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:417:in `block in each_strongly_connected_component_from'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:44:in `each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:411:in `call'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:411:in `each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `call'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:205:in `tsort_each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/application.rb:352:in `initialize!'
+  /home/butch/workspace/jive_os_apps/test/dummy/config/environment.rb:5:in `<top (required)>'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  config.ru:3:in `block in <main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `preload_app'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:153:in `<module:App>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+
+[ 2015-11-18 13:34:17.0419 7328/7f2aee9d0700 age/Cor/Req/CheckoutSession.cpp:252 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 2d2533dc. Please see earlier logs for details about the error.
+App 7398 stdout: 
+App 7398 stdout: 
+[ 2015-11-18 13:34:21.4914 7328/7f2aec747700 App/Implementation.cpp:303 ]: Could not spawn process for application /home/butch/workspace/jive_os_apps/test/dummy: An error occured while starting up the preloader.
+  Error ID: 469e1560
+  Error details saved to: /tmp/passenger-error-nbqFRB.html
+  Message from application: undefined method `hahahah=' for JiveOsApps:Module (NoMethodError)
+  /home/butch/workspace/jive_os_apps/test/dummy/config/initializers/jive_os_apps.rb:2:in `block in <top (required)>'
+  /home/butch/workspace/jive_os_apps/lib/jive_os_apps/engine.rb:7:in `setup'
+  /home/butch/workspace/jive_os_apps/test/dummy/config/initializers/jive_os_apps.rb:1:in `<top (required)>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:268:in `load'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:268:in `block in load'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:268:in `load'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:652:in `block in load_config_initializer'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/notifications.rb:166:in `instrument'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:651:in `load_config_initializer'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:616:in `block (2 levels) in <class:Engine>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:615:in `each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/engine.rb:615:in `block in <class:Engine>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `run'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:226:in `block in tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:418:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:427:in `each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:417:in `block in each_strongly_connected_component_from'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:44:in `each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:411:in `call'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:411:in `each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `call'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:205:in `tsort_each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/application.rb:352:in `initialize!'
+  /home/butch/workspace/jive_os_apps/test/dummy/config/environment.rb:5:in `<top (required)>'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  config.ru:3:in `block in <main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `preload_app'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:153:in `<module:App>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+
+[ 2015-11-18 13:34:21.5124 7328/7f2aee14e700 age/Cor/Req/CheckoutSession.cpp:252 ]: [Client 2-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 469e1560. Please see earlier logs for details about the error.
+App 7511 stdout: 
+App 7528 stdout: 
+
+[ 2015-11-18 13:38:31.6107 7328/7f2aee9d0700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2015-11-18 13:38:31.6108 7328/7f2af596b780 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 13:38:31.6108 7328/7f2af596b780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 7528, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 13:38:31.6108 7337/7fe3fffff700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 13:38:31.6109 7337/7fe40b12e780 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 13:38:31.6109 7337/7fe3fffff700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-11-18 13:38:31.6109 7337/7fe3fffff700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-11-18 13:38:31.6111 7328/7f2aed8cc700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-11-18 13:38:31.6111 7328/7f2aed8cc700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-11-18 13:38:31.6112 7337/7fe40b12e780 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-11-18 13:38:31.6113 7328/7f2aee9d0700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-11-18 13:38:31.6113 7328/7f2aee9d0700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-11-18 13:38:31.6115 7328/7f2aee14e700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-11-18 13:38:31.6115 7328/7f2aee14e700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-11-18 13:38:31.6117 7328/7f2abffff700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-11-18 13:38:31.6117 7328/7f2abffff700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-11-18 13:38:31.6117 7328/7f2aed04a700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-11-18 13:38:31.6117 7328/7f2aed04a700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-11-18 13:38:31.6123 7328/7f2af596b780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 7528, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 13:38:31.7250 7328/7f2af596b780 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+[ 2015-11-18 13:38:32.9461 8025/7f6a8054d780 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-11-18 13:38:32.9527 8028/7f2fa3f48780 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-11-18 13:38:32.9528 8028/7f2fa3f48780 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-11-18 13:38:32.9544 8028/7f2fa3f48780 age/Cor/Main.cpp:707 ]: Passenger core online, PID 8028
+[ 2015-11-18 13:38:32.9621 8035/7f05eb352780 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-11-18 13:38:32.9624 8035/7f05eb352780 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 8035
+App 8077 stdout: 
+App 8094 stdout: 
+App 8103 stdout: 
+
+[ 2015-11-18 13:39:31.1403 8028/7f2f9cfad700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 13:39:31.1403 8028/7f2fa3f48780 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 13:39:31.1404 8028/7f2fa3f48780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 8094, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 13:39:31.1404 8028/7f2fa3f48780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 8103, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 13:39:31.1407 8028/7f2f877fe700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-11-18 13:39:31.1407 8028/7f2f877fe700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-11-18 13:39:31.1409 8028/7f2f87fff700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-11-18 13:39:31.1409 8028/7f2f87fff700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-11-18 13:39:31.1409 8028/7f2f86ffd700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-11-18 13:39:31.1409 8028/7f2f86ffd700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-11-18 13:39:31.1410 8028/7f2f867fc700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-11-18 13:39:31.1410 8028/7f2f867fc700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-11-18 13:39:31.1410 8028/7f2f9cfad700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-11-18 13:39:31.1411 8028/7f2f9cfad700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-11-18 13:39:31.1411 8028/7f2fa3f48780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 8094, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 13:39:31.1412 8028/7f2fa3f48780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 8103, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+
+[ 2015-11-18 13:39:31.1414 8035/7f05dffff700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 13:39:31.1414 8035/7f05eb352780 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 13:39:31.1417 8035/7f05dffff700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-11-18 13:39:31.1417 8035/7f05dffff700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-11-18 13:39:31.1468 8035/7f05eb352780 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-11-18 13:39:31.2534 8028/7f2fa3f48780 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+[ 2015-11-18 13:39:31.8877 8255/7f5f175c4780 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-11-18 13:39:31.8944 8258/7fc2d327d780 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-11-18 13:39:31.8946 8258/7fc2d327d780 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-11-18 13:39:31.8962 8258/7fc2d327d780 age/Cor/Main.cpp:707 ]: Passenger core online, PID 8258
+[ 2015-11-18 13:39:31.9035 8266/7fda17278780 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-11-18 13:39:31.9038 8266/7fda17278780 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 8266
+App 8310 stdout: 
+App 8332 stdout: 
+App 8340 stdout: 
+
+[ 2015-11-18 13:41:54.7790 8258/7fc2bffff700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 13:41:54.7790 8258/7fc2d327d780 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 13:41:54.7791 8258/7fc2d327d780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 8332, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 13:41:54.7791 8258/7fc2d327d780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 8340, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 13:41:54.7793 8258/7fc2beffd700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-11-18 13:41:54.7794 8258/7fc2beffd700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-11-18 13:41:54.7794 8258/7fc2bdffb700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-11-18 13:41:54.7794 8258/7fc2bdffb700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-11-18 13:41:54.7795 8258/7fc2bf7fe700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-11-18 13:41:54.7795 8258/7fc2bf7fe700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-11-18 13:41:54.7797 8258/7fc2be7fc700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-11-18 13:41:54.7797 8258/7fc2be7fc700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-11-18 13:41:54.7800 8258/7fc2bffff700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-11-18 13:41:54.7800 8258/7fc2bffff700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-11-18 13:41:54.7801 8258/7fc2d327d780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 8332, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 13:41:54.7801 8258/7fc2d327d780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 8340, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+
+[ 2015-11-18 13:41:54.7865 8266/7fda0bfff700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 13:41:54.7865 8266/7fda17278780 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 13:41:54.7866 8266/7fda0bfff700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-11-18 13:41:54.7866 8266/7fda0bfff700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-11-18 13:41:54.7870 8266/7fda17278780 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-11-18 13:41:54.8923 8258/7fc2d327d780 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+[ 2015-11-18 13:41:56.2702 8650/7fd77e81c780 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-11-18 13:41:56.2765 8653/7ff58c575780 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-11-18 13:41:56.2766 8653/7ff58c575780 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-11-18 13:41:56.2782 8653/7ff58c575780 age/Cor/Main.cpp:707 ]: Passenger core online, PID 8653
+[ 2015-11-18 13:41:56.2866 8662/7f7de1253780 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-11-18 13:41:56.2869 8662/7f7de1253780 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 8662
+App 8696 stdout: 
+App 8696 stdout: 
+[ 2015-11-18 13:41:59.4351 8653/7ff584353700 App/Implementation.cpp:303 ]: Could not spawn process for application /home/butch/workspace/jive_os_apps/test/dummy: An error occured while starting up the preloader.
+  Error ID: 00d760df
+  Error details saved to: /tmp/passenger-error-MzqFcn.html
+  Message from application: uninitialized constant JiveOsApps::Railtie::MyEngine (NameError)
+  /home/butch/workspace/jive_os_apps/lib/jive_os_apps/engine.rb:10:in `block in <class:Railtie>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:446:in `instance_exec'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:446:in `block in make_lambda'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:192:in `call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:192:in `block in simple'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `block in call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_prepare_callbacks'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/reloader.rb:83:in `prepare!'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/reloader.rb:55:in `prepare!'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/application/finisher.rb:50:in `block in <module:Finisher>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `run'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:226:in `block in tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:427:in `each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `call'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:205:in `tsort_each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/application.rb:352:in `initialize!'
+  /home/butch/workspace/jive_os_apps/test/dummy/config/environment.rb:5:in `<top (required)>'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  config.ru:3:in `block in <main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `preload_app'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:153:in `<module:App>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+
+[ 2015-11-18 13:41:59.4398 8653/7ff5855da700 age/Cor/Req/CheckoutSession.cpp:252 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 00d760df. Please see earlier logs for details about the error.
+App 8729 stdout: 
+App 8729 stdout: 
+[ 2015-11-18 13:42:01.0867 8653/7ff584353700 App/Implementation.cpp:303 ]: Could not spawn process for application /home/butch/workspace/jive_os_apps/test/dummy: An error occured while starting up the preloader.
+  Error ID: 41e8efb1
+  Error details saved to: /tmp/passenger-error-RFqSMn.html
+  Message from application: uninitialized constant JiveOsApps::Railtie::MyEngine (NameError)
+  /home/butch/workspace/jive_os_apps/lib/jive_os_apps/engine.rb:10:in `block in <class:Railtie>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:446:in `instance_exec'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:446:in `block in make_lambda'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:192:in `call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:192:in `block in simple'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `block in call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_prepare_callbacks'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/reloader.rb:83:in `prepare!'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/reloader.rb:55:in `prepare!'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/application/finisher.rb:50:in `block in <module:Finisher>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `run'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:226:in `block in tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:427:in `each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `call'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:205:in `tsort_each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/application.rb:352:in `initialize!'
+  /home/butch/workspace/jive_os_apps/test/dummy/config/environment.rb:5:in `<top (required)>'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  config.ru:3:in `block in <main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `preload_app'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:153:in `<module:App>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+
+[ 2015-11-18 13:42:01.0915 8653/7ff584d58700 age/Cor/Req/CheckoutSession.cpp:252 ]: [Client 2-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 41e8efb1. Please see earlier logs for details about the error.
+App 8771 stdout: 
+App 8771 stdout: 
+[ 2015-11-18 13:42:12.6133 8653/7ff584353700 App/Implementation.cpp:303 ]: Could not spawn process for application /home/butch/workspace/jive_os_apps/test/dummy: An error occured while starting up the preloader.
+  Error ID: 76e6141d
+  Error details saved to: /tmp/passenger-error-Pd0nGJ.html
+  Message from application: uninitialized constant Railtie::MyEngine (NameError)
+  /home/butch/workspace/jive_os_apps/lib/jive_os_apps/engine.rb:10:in `block in <class:Railtie>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:446:in `instance_exec'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:446:in `block in make_lambda'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:192:in `call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:192:in `block in simple'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `block in call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_prepare_callbacks'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/reloader.rb:83:in `prepare!'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/reloader.rb:55:in `prepare!'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/application/finisher.rb:50:in `block in <module:Finisher>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `run'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:226:in `block in tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:427:in `each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `call'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:205:in `tsort_each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/application.rb:352:in `initialize!'
+  /home/butch/workspace/jive_os_apps/test/dummy/config/environment.rb:5:in `<top (required)>'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  config.ru:3:in `block in <main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `preload_app'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:153:in `<module:App>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+
+[ 2015-11-18 13:42:12.6175 8653/7ff57ffff700 age/Cor/Req/CheckoutSession.cpp:252 ]: [Client 3-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 76e6141d. Please see earlier logs for details about the error.
+App 8800 stdout: 
+App 8800 stdout: 
+[ 2015-11-18 13:42:23.8002 8653/7ff584353700 App/Implementation.cpp:303 ]: Could not spawn process for application /home/butch/workspace/jive_os_apps/test/dummy: An error occured while starting up the preloader.
+  Error ID: 3513316a
+  Error details saved to: /tmp/passenger-error-c00bjo.html
+  Message from application: undefined local variable or method `configuration' for JiveOsApps:Module (NameError)
+  /home/butch/workspace/jive_os_apps/lib/jive_os_apps/engine.rb:30:in `configure!'
+  /home/butch/workspace/jive_os_apps/lib/jive_os_apps/engine.rb:10:in `block in <class:Railtie>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:446:in `instance_exec'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:446:in `block in make_lambda'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:192:in `call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:192:in `block in simple'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `block in call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_prepare_callbacks'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/reloader.rb:83:in `prepare!'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/reloader.rb:55:in `prepare!'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/application/finisher.rb:50:in `block in <module:Finisher>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `run'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:226:in `block in tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:427:in `each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `call'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:205:in `tsort_each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/application.rb:352:in `initialize!'
+  /home/butch/workspace/jive_os_apps/test/dummy/config/environment.rb:5:in `<top (required)>'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  config.ru:3:in `block in <main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `preload_app'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:153:in `<module:App>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+
+[ 2015-11-18 13:42:23.8060 8653/7ff57f7fe700 age/Cor/Req/CheckoutSession.cpp:252 ]: [Client 4-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 3513316a. Please see earlier logs for details about the error.
+
+[ 2015-11-18 13:44:39.4633 8653/7ff5855da700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 13:44:39.4633 8653/7ff58c575780 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 13:44:39.4635 8653/7ff5855da700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-11-18 13:44:39.4635 8653/7ff5855da700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-11-18 13:44:39.4635 8653/7ff57ffff700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-11-18 13:44:39.4635 8653/7ff57ffff700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-11-18 13:44:39.4636 8653/7ff584d58700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-11-18 13:44:39.4636 8653/7ff584d58700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-11-18 13:44:39.4636 8653/7ff57effd700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-11-18 13:44:39.4636 8653/7ff57effd700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+
+[ 2015-11-18 13:44:39.4640 8662/7f7dda27d700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 13:44:39.4640 8662/7f7de1253780 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 13:44:39.4640 8662/7f7dda27d700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-11-18 13:44:39.4640 8662/7f7dda27d700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-11-18 13:44:39.4640 8653/7ff57f7fe700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-11-18 13:44:39.4641 8653/7ff57f7fe700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-11-18 13:44:39.4642 8662/7f7de1253780 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-11-18 13:44:39.4654 8653/7ff58c575780 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+[ 2015-11-18 13:44:40.5604 9013/7f95f92a3780 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-11-18 13:44:40.5670 9016/7f6c50642780 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-11-18 13:44:40.5671 9016/7f6c50642780 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-11-18 13:44:40.5686 9016/7f6c50642780 age/Cor/Main.cpp:707 ]: Passenger core online, PID 9016
+[ 2015-11-18 13:44:40.5759 9025/7f6670f5e780 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-11-18 13:44:40.5762 9025/7f6670f5e780 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 9025
+App 9061 stdout: 
+App 9061 stdout: 
+[ 2015-11-18 13:44:43.6893 9016/7f6c48420700 App/Implementation.cpp:303 ]: Could not spawn process for application /home/butch/workspace/jive_os_apps/test/dummy: An error occured while starting up the preloader.
+  Error ID: 59ea63ea
+  Error details saved to: /tmp/passenger-error-Rspq7R.html
+  Message from application: undefined local variable or method `configuration' for JiveOsApps:Module (NameError)
+  /home/butch/workspace/jive_os_apps/lib/jive_os_apps/engine.rb:30:in `configure!'
+  /home/butch/workspace/jive_os_apps/lib/jive_os_apps/engine.rb:10:in `block in <class:Railtie>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:446:in `instance_exec'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:446:in `block in make_lambda'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:192:in `call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:192:in `block in simple'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `block in call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_prepare_callbacks'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/reloader.rb:83:in `prepare!'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/reloader.rb:55:in `prepare!'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/application/finisher.rb:50:in `block in <module:Finisher>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `run'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:226:in `block in tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:427:in `each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `call'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:205:in `tsort_each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/application.rb:352:in `initialize!'
+  /home/butch/workspace/jive_os_apps/test/dummy/config/environment.rb:5:in `<top (required)>'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  config.ru:3:in `block in <main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `preload_app'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:153:in `<module:App>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+
+[ 2015-11-18 13:44:43.7100 9016/7f6c496a7700 age/Cor/Req/CheckoutSession.cpp:252 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 59ea63ea. Please see earlier logs for details about the error.
+App 9082 stdout: 
+App 9082 stdout: 
+[ 2015-11-18 13:44:46.0777 9016/7f6c48420700 App/Implementation.cpp:303 ]: Could not spawn process for application /home/butch/workspace/jive_os_apps/test/dummy: An error occured while starting up the preloader.
+  Error ID: 1c227b42
+  Error details saved to: /tmp/passenger-error-sEPSd7.html
+  Message from application: undefined local variable or method `configuration' for JiveOsApps:Module (NameError)
+  /home/butch/workspace/jive_os_apps/lib/jive_os_apps/engine.rb:30:in `configure!'
+  /home/butch/workspace/jive_os_apps/lib/jive_os_apps/engine.rb:10:in `block in <class:Railtie>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:446:in `instance_exec'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:446:in `block in make_lambda'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:192:in `call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:192:in `block in simple'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `block in call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:504:in `call'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_prepare_callbacks'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/reloader.rb:83:in `prepare!'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/reloader.rb:55:in `prepare!'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/application/finisher.rb:50:in `block in <module:Finisher>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `run'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:226:in `block in tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:427:in `each_strongly_connected_component_from'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `call'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:205:in `tsort_each'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/railties-4.2.5/lib/rails/application.rb:352:in `initialize!'
+  /home/butch/workspace/jive_os_apps/test/dummy/config/environment.rb:5:in `<top (required)>'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  /home/butch/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  config.ru:3:in `block in <main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `eval'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:107:in `preload_app'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:153:in `<module:App>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/butch/.rvm/gems/ruby-2.1.1/gems/passenger-5.0.15/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+
+[ 2015-11-18 13:44:46.0915 9016/7f6c48e25700 age/Cor/Req/CheckoutSession.cpp:252 ]: [Client 2-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 1c227b42. Please see earlier logs for details about the error.
+
+
+[ 2015-11-18 13:45:28.7027 9016/7f6c496a7700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 13:45:28.7027 9025/7f6669f88700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 13:45:28.7027 9025/7f6670f5e780 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 13:45:28.7027 9016/7f6c50642780 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 13:45:28.7027 9025/7f6669f88700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-11-18 13:45:28.7028 9025/7f6669f88700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-11-18 13:45:28.7029 9016/7f6c48e25700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-11-18 13:45:28.7029 9016/7f6c48e25700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-11-18 13:45:28.7029 9025/7f6670f5e780 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-11-18 13:45:28.7030 9016/7f6c496a7700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-11-18 13:45:28.7030 9016/7f6c496a7700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-11-18 13:45:28.7033 9016/7f6c437fe700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-11-18 13:45:28.7033 9016/7f6c437fe700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-11-18 13:45:28.7033 9016/7f6c42ffd700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-11-18 13:45:28.7033 9016/7f6c42ffd700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-11-18 13:45:28.7034 9016/7f6c43fff700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-11-18 13:45:28.7034 9016/7f6c43fff700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-11-18 13:45:28.7043 9016/7f6c50642780 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+[ 2015-11-18 13:45:30.4131 9186/7f3542903780 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-11-18 13:45:30.4201 9189/7f796b61f780 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-11-18 13:45:30.4202 9189/7f796b61f780 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-11-18 13:45:30.4216 9189/7f796b61f780 age/Cor/Main.cpp:707 ]: Passenger core online, PID 9189
+[ 2015-11-18 13:45:30.4291 9197/7f16e91a0780 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-11-18 13:45:30.4294 9197/7f16e91a0780 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 9197
+App 9233 stdout: 
+App 9249 stdout: 
+
+[ 2015-11-18 13:46:42.8473 9189/7f795ffff700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 13:46:42.8473 9189/7f796b61f780 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 13:46:42.8474 9189/7f796b61f780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 9249, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+
+[ 2015-11-18 13:46:42.8475 9197/7f16e21ca700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 13:46:42.8476 9197/7f16e91a0780 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 13:46:42.8476 9189/7f795f7fe700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-11-18 13:46:42.8476 9189/7f795f7fe700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-11-18 13:46:42.8476 9197/7f16e21ca700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-11-18 13:46:42.8476 9189/7f795dffb700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-11-18 13:46:42.8476 9197/7f16e21ca700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-11-18 13:46:42.8476 9189/7f795dffb700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-11-18 13:46:42.8476 9189/7f795e7fc700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-11-18 13:46:42.8476 9189/7f795e7fc700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-11-18 13:46:42.8477 9189/7f795effd700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-11-18 13:46:42.8477 9189/7f795effd700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-11-18 13:46:42.8478 9189/7f795ffff700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-11-18 13:46:42.8478 9189/7f795ffff700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-11-18 13:46:42.8478 9197/7f16e91a0780 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-11-18 13:46:42.8478 9189/7f796b61f780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 9249, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 13:46:42.9626 9189/7f796b61f780 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+[ 2015-11-18 13:46:44.0139 9397/7f1cf85d9780 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-11-18 13:46:44.0208 9400/7fa05689e780 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-11-18 13:46:44.0210 9400/7fa05689e780 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-11-18 13:46:44.0375 9400/7fa05689e780 age/Cor/Main.cpp:707 ]: Passenger core online, PID 9400
+[ 2015-11-18 13:46:44.0450 9411/7fb57c734780 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-11-18 13:46:44.0453 9411/7fb57c734780 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 9411
+App 9450 stdout: 
+App 9466 stdout: 
+App 10906 stdout: 
+App 10924 stdout: 
+[ 2015-11-18 14:00:22.8732 9400/7fa05685b700 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 10924, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+
+
+[ 2015-11-18 14:03:11.7226 9400/7fa04b7fe700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 14:03:11.7226 9411/7fb57575e700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 14:03:11.7226 9411/7fb57c734780 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 14:03:11.7226 9400/7fa05689e780 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 14:03:11.7227 9400/7fa05689e780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 9466, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 14:03:11.7227 9411/7fb57575e700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-11-18 14:03:11.7227 9411/7fb57575e700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-11-18 14:03:11.7229 9400/7fa04affd700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-11-18 14:03:11.7229 9400/7fa04affd700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-11-18 14:03:11.7230 9411/7fb57c734780 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-11-18 14:03:11.7233 9400/7fa049f7a700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-11-18 14:03:11.7233 9400/7fa049f7a700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-11-18 14:03:11.7233 9400/7fa0496f8700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-11-18 14:03:11.7233 9400/7fa0496f8700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-11-18 14:03:11.7233 9400/7fa04a7fc700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-11-18 14:03:11.7234 9400/7fa04a7fc700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-11-18 14:03:11.7242 9400/7fa04b7fe700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-11-18 14:03:11.7242 9400/7fa04b7fe700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-11-18 14:03:11.7243 9400/7fa05689e780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 9466, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 14:03:11.8364 9400/7fa05689e780 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+[ 2015-11-18 14:03:12.4926 12075/7f87a0991780 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-11-18 14:03:12.5001 12078/7fea8f52d780 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-11-18 14:03:12.5002 12078/7fea8f52d780 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-11-18 14:03:12.5024 12078/7fea8f52d780 age/Cor/Main.cpp:707 ]: Passenger core online, PID 12078
+[ 2015-11-18 14:03:12.5099 12083/7fd827594780 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-11-18 14:03:12.5102 12083/7fd827594780 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 12083
+App 12121 stdout: 
+App 12143 stdout: 
+App 12153 stdout: 
+[ 2015-11-18 14:08:18.3610 12078/7fea8f4ea700 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 12153, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+
+
+[ 2015-11-18 14:16:24.2925 12078/7fea83fff700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 14:16:24.2925 12083/7fd81bfff700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 14:16:24.2925 12083/7fd827594780 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 14:16:24.2925 12078/7fea8f52d780 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 14:16:24.2925 12078/7fea8f52d780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 12143, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 14:16:24.2926 12083/7fd81bfff700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-11-18 14:16:24.2926 12083/7fd81bfff700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-11-18 14:16:24.2927 12078/7fea827fc700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-11-18 14:16:24.2927 12078/7fea827fc700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-11-18 14:16:24.2928 12078/7fea837fe700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-11-18 14:16:24.2928 12078/7fea837fe700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-11-18 14:16:24.2928 12078/7fea81ffb700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-11-18 14:16:24.2928 12078/7fea81ffb700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-11-18 14:16:24.2933 12078/7fea82ffd700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-11-18 14:16:24.2933 12078/7fea82ffd700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-11-18 14:16:24.2935 12083/7fd827594780 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-11-18 14:16:24.2935 12078/7fea83fff700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-11-18 14:16:24.2935 12078/7fea83fff700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-11-18 14:16:24.2936 12078/7fea8f52d780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 12143, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 14:16:24.4053 12078/7fea8f52d780 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+[ 2015-11-18 14:16:54.5442 13970/7f55de1eb780 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-11-18 14:16:54.5511 13973/7f145b435780 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-11-18 14:16:54.5512 13973/7f145b435780 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-11-18 14:16:54.5526 13973/7f145b435780 age/Cor/Main.cpp:707 ]: Passenger core online, PID 13973
+[ 2015-11-18 14:16:54.5663 13978/7f2095ddf780 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-11-18 14:16:54.5666 13978/7f2095ddf780 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 13978
+App 14021 stdout: 
+App 14037 stdout: 
+App 14044 stdout: 
+[ 2015-11-18 14:21:58.1019 13973/7f145b3f2700 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 14044, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+
+
+[ 2015-11-18 14:53:57.2877 13973/7f1447fff700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 14:53:57.2877 13978/7f208ee09700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 14:53:57.2877 13973/7f145b435780 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 14:53:57.2877 13973/7f145b435780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 14037, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 14:53:57.2877 13978/7f2095ddf780 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 14:53:57.2879 13978/7f208ee09700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-11-18 14:53:57.2879 13978/7f208ee09700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-11-18 14:53:57.2881 13973/7f14467fc700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-11-18 14:53:57.2881 13973/7f1447fff700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-11-18 14:53:57.2881 13973/7f14467fc700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-11-18 14:53:57.2881 13973/7f1447fff700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-11-18 14:53:57.2882 13973/7f1445ffb700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-11-18 14:53:57.2882 13973/7f1445ffb700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-11-18 14:53:57.2883 13973/7f14477fe700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-11-18 14:53:57.2884 13973/7f14477fe700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-11-18 14:53:57.2885 13973/7f1446ffd700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-11-18 14:53:57.2885 13973/7f1446ffd700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-11-18 14:53:57.2886 13973/7f145b435780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 14037, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 14:53:57.2915 13978/7f2095ddf780 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-11-18 14:53:57.4006 13973/7f145b435780 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+[ 2015-11-18 14:53:58.3800 19093/7f786d4e9780 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-11-18 14:53:58.3880 19096/7f8e1e871780 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-11-18 14:53:58.3882 19096/7f8e1e871780 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-11-18 14:53:58.3902 19096/7f8e1e871780 age/Cor/Main.cpp:707 ]: Passenger core online, PID 19096
+[ 2015-11-18 14:53:58.3987 19105/7f591b3df780 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-11-18 14:53:58.3990 19105/7f591b3df780 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 19105
+App 19143 stdout: 
+App 19160 stdout: 
+
+[ 2015-11-18 14:56:45.7961 19096/7f8e137fe700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 14:56:45.7962 19096/7f8e1e871780 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 14:56:45.7962 19096/7f8e1e871780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 19160, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 14:56:45.7964 19096/7f8e12ffd700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-11-18 14:56:45.7964 19096/7f8e12ffd700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-11-18 14:56:45.7966 19096/7f8e137fe700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-11-18 14:56:45.7966 19096/7f8e137fe700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-11-18 14:56:45.7969 19096/7f8e1277b700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-11-18 14:56:45.7969 19096/7f8e1277b700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-11-18 14:56:45.7970 19096/7f8e11ef9700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-11-18 14:56:45.7971 19096/7f8e11ef9700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+
+[ 2015-11-18 14:56:45.7971 19105/7f590ffff700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 14:56:45.7972 19096/7f8e11677700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-11-18 14:56:45.7972 19096/7f8e11677700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-11-18 14:56:45.7973 19105/7f591b3df780 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 14:56:45.7973 19105/7f590ffff700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-11-18 14:56:45.7973 19105/7f590ffff700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-11-18 14:56:45.7974 19096/7f8e1e871780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 19160, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 14:56:45.7976 19105/7f591b3df780 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-11-18 14:56:45.9189 19096/7f8e1e871780 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+[ 2015-11-18 14:56:46.8205 19976/7f690bdb1780 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-11-18 14:56:46.8269 19979/7fb4c1192780 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-11-18 14:56:46.8270 19979/7fb4c1192780 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-11-18 14:56:46.8286 19979/7fb4c1192780 age/Cor/Main.cpp:707 ]: Passenger core online, PID 19979
+[ 2015-11-18 14:56:46.8357 19988/7fd7ff84a780 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-11-18 14:56:46.8360 19988/7fd7ff84a780 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 19988
+App 20022 stdout: 
+App 20042 stdout: 
+
+
+[ 2015-11-18 15:11:39.6699 19979/7fb4ba1f7700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 15:11:39.6699 19988/7fd7f8874700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-11-18 15:11:39.6699 19988/7fd7ff84a780 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 15:11:39.6699 19979/7fb4c1192780 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-11-18 15:11:39.6700 19979/7fb4c1192780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 20042, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 15:11:39.6700 19988/7fd7f8874700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-11-18 15:11:39.6700 19988/7fd7f8874700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-11-18 15:11:39.6703 19979/7fb493f7e700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-11-18 15:11:39.6703 19979/7fb4b9975700 Ser/Server.h:752 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-11-18 15:11:39.6703 19979/7fb493f7e700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-11-18 15:11:39.6703 19979/7fb4b9975700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-11-18 15:11:39.6705 19979/7fb4b90f3700 Ser/Server.h:752 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-11-18 15:11:39.6705 19979/7fb4b90f3700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-11-18 15:11:39.6705 19979/7fb4ba1f7700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-11-18 15:11:39.6705 19979/7fb4ba1f7700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-11-18 15:11:39.6705 19988/7fd7ff84a780 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-11-18 15:11:39.6705 19979/7fb4b8871700 Ser/Server.h:752 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-11-18 15:11:39.6706 19979/7fb4b8871700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-11-18 15:11:39.6707 19979/7fb4c1192780 age/Cor/Main.cpp:794 ]: Disconnecting long-running connections for process 20042, application /home/butch/workspace/jive_os_apps/test/dummy/public (development)
+[ 2015-11-18 15:11:39.7826 19979/7fb4c1192780 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
