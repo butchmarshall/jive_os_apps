@@ -3,7 +3,7 @@
 
 # JiveOsApps
 
-JiveOsOns is a mountable engine for Rails that enables [Jive](https://www.jivesoftware.com) [OpenSocial App](https://community.jivesoftware.com/docs/DOC-112287) functionality.
+JiveOsApps is a mountable engine for Rails that enables [Jive](https://www.jivesoftware.com) [OpenSocial App](https://community.jivesoftware.com/docs/DOC-112287) functionality.
 
 This engine doesn't actually do much.  OpenSocial apps from Jive are just XML definitions.  This just provides a template.
 
@@ -39,8 +39,6 @@ end
 ```
 
 Configuration file for your first add-ons XML by adding a YAML file in `/views/jive_os_apps/os_apps/show_[Name Here].xml.erb` for each name and `/views/jive_os_apps/os_apps/locale_[Name Here].xml.erb` for each locale.
-
-See /spec/dummy/config/jive_osapp_dummy_config.yml for an example
 
 ## Contributing
 
